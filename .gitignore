@@ -84,7 +84,7 @@ credentials/*.json
 
 content.json
 
-/content
+content/*
 
 content/*.png
 content/*.jpg
