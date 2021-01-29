@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-cli-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gmahota/nodejs-cli-tests.git",
+  "author": "Guimarães Mahota <guimaraesmahota@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "nodemon .",
+    "start": "node ."
+  }
+}
