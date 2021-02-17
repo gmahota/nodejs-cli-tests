@@ -31,15 +31,13 @@ client.on("message", async (msg) => {
 
   if(msg.from === contact){
     switch(count){
-      case 0:
-      case 3:
-      case 9:
-        msg.reply("Hello My love! 😍");break;
-      case 1:msg.reply("❤️❤️");break;
-      case 2: msg.reply("😍😍😍");break;
-      case 4: msg.reply("I love you 👸");break;
-      case 5: msg.reply("I love you more😍");break;
-      default: msg.reply("Honey 😘");break;
+      case 0: msg.reply("Boss");break;
+      case 1: msg.reply("Quando voltas a Jogar");break;
+      case 2: msg.reply("Muita, força no Africano");break;
+      case 3: msg.reply("Espero que consigas vencer o maximo");break;
+      case 4: msg.reply("denada");break;
+      case 6: msg.reply("Abaste de conversar com o meu chatbook programado!!!");break;
+      case 9: msg.reply("kkkkk");break;
     }
     count ++;
   }
