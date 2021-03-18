@@ -84,7 +84,7 @@ credentials/*.json
 
 content.json
 
-/content
+content/*
 
 content/*.png
 content/*.jpg
@@ -103,3 +103,5 @@ Adobe After Effects Auto-Save
 
 #VS Code Folder
 .vscode/
+
+yarn.lock
