@@ -31,13 +31,13 @@ client.on("message", async (msg) => {
 
   if(msg.from === contact){
     switch(count){
-      case 0: msg.reply("Boss");break;
-      case 1: msg.reply("Quando voltas a Jogar");break;
-      case 2: msg.reply("Muita, força no Africano");break;
-      case 3: msg.reply("Espero que consigas vencer o maximo");break;
-      case 4: msg.reply("denada");break;
-      case 6: msg.reply("Abaste de conversar com o meu chatbook programado!!!");break;
-      case 9: msg.reply("kkkkk");break;
+      case 0: msg.reply("Mudando de assunto esse novo job tudo a postos?");break;
+      case 1: msg.reply("Vais ter de fazer a indução novamente?");break;
+      case 2: msg.reply("Interessante");break;
+      case 3: msg.reply("Espero ver muito codigo teu.");break;
+      case 4: msg.reply("Muita força ai.");break;
+      case 5: msg.reply("De nada");break;
+      case 6: msg.reply("Acabaste de conversar com o meu boot, ainda em produção (5% do fim), https://github.com/gmahota/nodejs-cli-tests  - branch whatsapp-web . Se achaste interessante please coloca 1 star 😃");break;
     }
     count ++;
   }
